@@ -1,0 +1,175 @@
+{
+    "intents": [
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi", 
+            "Hey", 
+            "Is anyone there?", 
+            "Hello", 
+            "Hay", 
+            "Wassup bro", 
+            "Good day",
+            "What's up",
+            "Yo!",
+            "Howdy",
+            "Nice to meet you."
+        ],
+        "responses": [
+            "Hey",
+            "Hello, thanks for visiting.",
+            "Hi there, what can I do for you?",
+            "Hi there, how can I help?",
+            "Hello, there.",
+            "Ooooo Hello, looking for someone or something?",
+            "Yes, I am here.",
+            "Listening carefully.",
+            "Ok, I am with you."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later.",
+            "Goodbye",
+            "Have a great day.",
+            "See you next time.",
+            "It was my pleassure.",
+            "Take care.",
+            "See ya!",
+            "Catch you later.",
+            "Ciao."
+        ],
+        "responses": [
+            "See you later, thanks for visiting.",
+            "See next time.",
+            "Was my pleassuare to meet you.",
+            "Hope will cath up sortly.",
+            "Have a nice day.",
+            "Bye! Come back again soon.",
+            "So, till next time.",
+            "If you need anything just text me anytime. Bye.",
+            "Well, hope to see you soon!"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thanks", 
+            "Thank you", 
+            "That's helpful", 
+            "Thanks for the help", 
+            "Wow",
+            "Great!",
+            "Good!",
+            "Amazing!"
+        ],
+        "responses": [
+            "Happy to help!", 
+            "Any time!", 
+            "My pleasure", 
+            "You're most welcome!",
+            "No worries!",
+            "It was the least I could do!"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "Who are you?", 
+            "What are you?",
+            "what is your name", 
+            "what should I call you", 
+            "whats your name?"
+        ],
+        "responses": [
+            "I'm PAI, your bot assistant", 
+            "I'm PAI, an A.I bot", 
+            "You can call me PAI. I'm your bot assistant", 
+            "I'm PAI!, an A.I bot", 
+            "Just call me as PAI. I'm your bot assistant"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Could you help me?", 
+            "give me a hand please", 
+            "Please help me",
+            "Can you help?", 
+            "What can you do for me?", 
+            "I need support", 
+            "I need help",
+            "Help me please", 
+            "support me please"
+        ],
+        "responses": [
+            "Tell me how can I assist you", 
+            "Tell me your problem to assist you", 
+            "Yes Sure, How can I support you",
+            "Tell me what do you looking for?",
+            "Sure, how can I help you?"
+        ]
+    },
+    {
+        "tag": "createaccount",
+        "patterns": [
+            "I need to create a new account", 
+            "how to open a new account", 
+            "I want to create an account", 
+            "can you create an account for me", 
+            "how to open a new account"
+        ],
+        "responses": [
+            "You can just easily create a new account from our web site", 
+            "Just go to our web site and follow the guidelines to create a new account"
+        ]
+    },
+    {
+        "tag": "complaint",
+        "patterns": [
+            "I have a complaint", 
+            "I want to raise a complaint", 
+            "there is a complaint about a service"
+        ],
+        "responses": [
+            "Please provide us your complaint in order to assist you", 
+            "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+        ]
+    },
+    {
+        "tag": "contact",
+        "patterns": [
+          "contact information",
+          "contact us",
+          "how can i contact you",
+          "can i get the contact details",
+          "I wanna give some feedback",
+          "how can i give some feedback?"
+        ],
+        "responses": [
+          "You can contact us at contact@company.com"
+        ]
+    },
+    {
+        "tag": "funny",
+        "patterns": [
+            "Tell me a joke!",
+            "Can you be a bit funny",
+            "Tell me something funny!",
+            "Do you know a joke?",
+            "Any joke for me?",
+            "I'm getting bored"
+        ],
+        "responses": [
+            "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+            "What did the buffalo say when his son left for college? Bison.",
+            "What genre are national anthems? Country",
+            "Russian dolls are so full of themselves.",
+            "The future, the present, and the past walk into a bar. Things got a little tense.",
+            "Don’t you hate it when someone answers their own questions? I do."
+        ]
+    }
+]
+}
